@@ -70,7 +70,7 @@ public class Homepage {
 		TriggerPrice.clear();
 		Thread.sleep(3000);
 		TriggerPrice.sendKeys(a);
-		System.out.println("*******");
+		
 	}
 	
 	
