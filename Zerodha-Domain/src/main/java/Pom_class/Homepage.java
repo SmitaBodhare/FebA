@@ -19,7 +19,7 @@ public class Homepage {
 	
 	@FindBy(xpath="//label[text()='Intraday ']")
 	private WebElement Indraday;
-	
+
 	@FindBy(xpath="//button[text()='B ']")
 	private WebElement Buy;
 	
@@ -70,6 +70,7 @@ public class Homepage {
 		TriggerPrice.clear();
 		Thread.sleep(3000);
 		TriggerPrice.sendKeys(a);
+		System.out.println("*******");
 	}
 	
 	
