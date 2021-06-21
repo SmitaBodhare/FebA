@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="main.mainclass">
+        <methods>
+          <include name="LaunchApp"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="bookmarks"/>
+        </methods>
+      </class> <!-- main.mainclass -->
+      <class name="main.test2">
+        <methods>
+          <include name="watch"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="LaunchApp"/>
+        </methods>
+      </class> <!-- main.test2 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FireFox(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="main.mainclass">
+        <methods>
+          <include name="LaunchApp"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="bookmarks"/>
+        </methods>
+      </class> <!-- main.mainclass -->
+      <class name="main.test2">
+        <methods>
+          <include name="watch"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="LaunchApp"/>
+        </methods>
+      </class> <!-- main.test2 -->
+    </classes>
+  </test> <!-- FireFox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -5,10 +5,18 @@
     <classes>
       <class name="Test.test1">
         <methods>
+          <include name="LaunchBrowser"/>
+          <include name="closebroser"/>
           <include name="VerifyLoginpage"/>
-          <include name="LaunchApp"/>
         </methods>
       </class> <!-- Test.test1 -->
+      <class name="Test.test2">
+        <methods>
+          <include name="closebroser"/>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchApp"/>
+        </methods>
+      </class> <!-- Test.test2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

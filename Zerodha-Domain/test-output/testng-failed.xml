@@ -10,7 +10,7 @@
       <class name="Test.test2">
         <methods>
           <include name="closebroser"/>
-          <include name="LaunchApp"/>
+          <include name="LaunchBrowser"/>
           <include name="LaunchApp"/>
         </methods>
       </class> <!-- Test.test2 -->
@@ -22,7 +22,7 @@
       <class name="Test.test2">
         <methods>
           <include name="closebroser"/>
-          <include name="LaunchApp"/>
+          <include name="LaunchBrowser"/>
           <include name="LaunchApp"/>
         </methods>
       </class> <!-- Test.test2 -->

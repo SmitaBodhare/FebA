@@ -71,6 +71,7 @@ public class test2 extends Pojo{
 
 		Home.SelectStoploss();
 		Home.SelectTriggerPrice("280");
+		Assert.fail();
 	}
 	@AfterClass
 	public void closebroser(){
