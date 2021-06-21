@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-12T14:32:31 IST" name="Default suite" finished-at="2021-06-12T14:33:27 IST" duration-ms="55780">
+    <groups>
+    </groups>
+    <test started-at="2021-06-12T14:32:31 IST" name="Default test" finished-at="2021-06-12T14:33:27 IST" duration-ms="55780">
+      <class name="Mainclass.main1">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Mainclass.main1@23c30a20]" started-at="2021-06-12T14:32:31 IST" name="browserlaunch" finished-at="2021-06-12T14:32:31 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method is-config="true" signature="Aplicationlaunch()[pri:0, instance:Mainclass.main1@23c30a20]" started-at="2021-06-12T14:32:31 IST" name="Aplicationlaunch" finished-at="2021-06-12T14:32:48 IST" duration-ms="16802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aplicationlaunch -->
+        <test-method signature="InstasavingAccount()[pri:0, instance:Mainclass.main1@23c30a20]" started-at="2021-06-12T14:32:48 IST" name="InstasavingAccount" finished-at="2021-06-12T14:33:01 IST" duration-ms="13908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstasavingAccount -->
+        <test-method is-config="true" signature="closetab()[pri:0, instance:Mainclass.main1@23c30a20]" started-at="2021-06-12T14:33:02 IST" name="closetab" finished-at="2021-06-12T14:33:04 IST" duration-ms="2264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetab -->
+        <test-method is-config="true" signature="Aplicationlaunch()[pri:0, instance:Mainclass.main1@23c30a20]" started-at="2021-06-12T14:33:04 IST" name="Aplicationlaunch" finished-at="2021-06-12T14:33:14 IST" duration-ms="10266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aplicationlaunch -->
+        <test-method signature="PersonalsLoans()[pri:0, instance:Mainclass.main1@23c30a20]" started-at="2021-06-12T14:33:14 IST" name="PersonalsLoans" finished-at="2021-06-12T14:33:24 IST" duration-ms="10274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalsLoans -->
+        <test-method is-config="true" signature="closetab()[pri:0, instance:Mainclass.main1@23c30a20]" started-at="2021-06-12T14:33:24 IST" name="closetab" finished-at="2021-06-12T14:33:27 IST" duration-ms="2170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetab -->
+      </class> <!-- Mainclass.main1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
