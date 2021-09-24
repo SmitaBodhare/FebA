@@ -51,11 +51,11 @@ public class test2 extends Pojo{
 	public void LaunchApp() throws InterruptedException {
 		driver.navigate().to("https://kite.zerodha.com/");
 		 login=new Loginpage(driver);
-		login.SendUserid("JN9191");
-		login.SendPassword("Shubhu@143");
+		login.SendUserid("");
+		login.SendPassword("3");
 		login.ClickLogin();
 		Thread.sleep(3000);
-		login.SendPin("898354");
+		login.SendPin("");
 		login.ContinueToLogIn();
 	
 		Thread.sleep(3000);
