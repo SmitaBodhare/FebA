@@ -33,9 +33,9 @@ public class Testclass2 {
 		 driver.get("https://www.amazon.in/");
 		signin =new signin(driver);
 		signin.AccoutSignin();
-		signin.mobilenumber("9769782406");
+		signin.mobilenumber("96");
 		signin.Continue();
-		signin.password("bodhare@123");
+		signin.password("@123");
 		signin.signin();
 	}
 	
