@@ -57,17 +57,17 @@ public class test1 extends Pojo{
 		 login=new Loginpage(driver);
 		String Title=login.LoginTitle();
 		Assert.assertEquals(Title, "Kite - Zerodha's fast and elegant flagship trading platform");
-		boolean h=login.SendUserid("JN9191");
+		boolean h=login.SendUserid("");
 		Assert.assertTrue(h);
-		login.SendUserid("JN9191");
-		login.SendPassword("Shubhu@143");
+		login.SendUserid("");
+		login.SendPassword("3");
 		boolean a=login.LoginisEnable();
 		Assert.assertTrue(a);
 		login.ClickLogin();
 		Thread.sleep(3000);
 		String url=driver.getCurrentUrl();
 		Assert.assertEquals(url, "https://kite.zerodha.com/");
-		login.SendPin("898354");
+		login.SendPin("");
 		login.ContinueToLogIn();
 	
 	}
